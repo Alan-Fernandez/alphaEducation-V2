@@ -1,0 +1,37 @@
+/* DocumentationSection.module.css */
+
+/* Estilos generales del formulario */
+.form-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+}
+
+/* Establece el ancho de las columnas */
+.form-column {
+  width: 20%; /* Cada columna ocupará el 50% del contenedor */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+  padding: 0 15px; /* Agrega un pequeño espacio entre las columnas */
+}
+
+/* Estilos para etiquetas y campos de entrada */
+.form-container label {
+  display: block; /* Muestra las etiquetas como bloques para ocupar todo el ancho de la columna */
+  margin-bottom: 8px;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+  color: red;
+  margin-top: 4px;
+}
+
+.input-error {
+  border: 1px solid red;
+}

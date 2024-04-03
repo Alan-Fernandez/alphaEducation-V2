@@ -1,0 +1,12 @@
+/* CurrentTime.module.css */
+
+.container {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.text {
+    color: #1e1f2291; /* Puedes ajustar el color según tus preferencias */
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.SelecUnidad {
+  display: inline-block;
+  // display: flex;
+  flex-wrap: wrap; /* Wrap the flex items to multiple rows */
+  align-items: center; /* Align the flex items vertically in the center */
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.selecButton {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  flex: 1; /* Make each flex item grow to fill the available space */
+  margin: 10px;
+}
+
+.selecButton.selected {
+  background-color: #3498db; /* Cambia el color de fondo al ser seleccionado */
+  color: #fff; /* Cambia el color del texto al ser seleccionado */
+}
+
+.selecButton:hover {
+  background-color: #eee;
+}
+
+.selecButton label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.selecButton input {
+  vertical-align: middle;
+}
+
